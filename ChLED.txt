@@ -14,3 +14,4 @@ elif[ $1 == "blink" ]
 	echo "LED blink"
 	echo time>>"/sys/class/leds/led$LED_GPIO/trigger"
 fi
+#nic nie znaczy kom
